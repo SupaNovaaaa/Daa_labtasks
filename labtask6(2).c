@@ -65,7 +65,7 @@ int main() {
 
     strassen(A, B, C);
 
-    printf("Resultant Matrix using Strassen’s Algorithm:\n");
+    printf("Resultant Matrix using Strassen's Algorithm:\n");
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++)
             printf("%d ", C[i][j]);
